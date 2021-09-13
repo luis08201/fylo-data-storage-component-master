@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+  <main class="container">    
+    <div class="container__header">
+      <figure class="header__logo">
+          <img src="img/logo.svg" alt="" class="header__photo">
+      </figure>
+      <div class="header__items">
+        <figure class="header__item--picture">
+          <img src="img/icon-document.svg" alt="" class="header__item--photo">
+        </figure>
+        <figure class="header__item--picture">
+          <img src="img/icon-folder.svg" alt="" class="header__item--photo">
+        </figure>
+        <figure class="header__item--picture">
+          <img src="img/icon-upload.svg" alt="" class="header__item--photo">
+        </figure>
+      </div>
+    </div>
+    <div class="container__body">
+      <div class="body__title">
+        <p class="body__paragraph">You’ve used <strong>815 GB</strong> of your storage</p>
+      </div>
+      <div class="body__mainBar">
+        <div class="body__progressbar" id="progressbar"></div>
+      </div>
+      <div class="body__info">
+        <div class="body__info--size">
+          <p class="body__info--size-paragraph"><span id="size">0</span> GB</p>
+        </div>
+        <div class="body__info--totalsize">
+          <p class="body__info--totalsize-paragraph">1000 GB</p>
+        </div>
+      </div>
+      <div class="body__messageAlert" id="messageAlert">
+        <h1 class="body__messageAlert--header">
+          185
+        </h1>
+        <p class="body__messageAlert--paragraph">gb left</p>
+      </div>
+    </div>
+  </main>
+  <!-- BODY BACKGROUND IMAGE -->
+  <div class="body__bgi"></div>
+  <!-- 
+
+
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="js/progressbar.js"></script> 
+</body>
+</html>
