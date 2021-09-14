@@ -220,6 +220,13 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 20px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    max-width: 921px;
+    margin: 200px auto;
   }
   .container__header {
     width: 80%;

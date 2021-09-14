@@ -156,6 +156,12 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+     position: relative;
+     top: 0%;
+      left: 0%;
+      transform: translate(0%, 0%);
+     max-width: 921px;
+     margin: 200px auto;
     &__header {
       width: 80%;
       padding: 48px 42px;
